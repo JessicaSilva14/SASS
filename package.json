@@ -1,0 +1,14 @@
+{
+"name": "exercicio-sass",
+"version": "1.0.0",
+"description": "Projeto de exercício com SASS",
+"main": "index.html",
+"scripts": {
+    "build": "sass scss/main.scss css/style.css",
+    "watch": "sass --watch scss/main.scss css/style.css"
+},
+
+"devDependencies": {
+    "sass": "^1.69.5"
+}
+}
